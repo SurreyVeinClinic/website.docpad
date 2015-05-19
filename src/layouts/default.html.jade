@@ -1,0 +1,85 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='shortcut icon', href='img/season-change.jpg', type='image/x-icon')
+    title Surrey Vein Clinic
+    link(href='http://fonts.googleapis.com/css?family=Abel', rel='stylesheet', type='text/css')
+    //
+      <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700' rel='stylesheet' type='text/css'>
+    link(href='http://fonts.googleapis.com/css?family=Roboto:400,300,500', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300', rel='stylesheet', type='text/css')
+
+    != getBlock('styles').add(['/css/animate.css','/css/bootstrap.min.css','/css/owl.carousel.css','/css/owl.theme.css','/css/owl.transitions.css','/css/font-awesome.min.css','/css/main.css']).toHTML()
+
+  body
+    section.navs
+      nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
+        .container-fluid
+          //- Brand and toggle get grouped for better mobile display
+          .navbar-header
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+
+            a.navbar-brand.logo(href='#')
+              span
+                i.fa.fa-stethoscope
+              | Surrey Vein Clinic
+          //- Collect the nav links, forms, and other content for toggling
+          #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right
+              li.active
+                a(href='/') Home
+              li
+                a(href='/services.html') Services
+              li
+                a(href='/team.html') Team
+              li
+                a(href='/blog.html') Blog
+              li
+                a(href='/faq.html') FAQs
+              li
+                a(href='/gallery.html') Gallery
+              li
+                a(href='/contact.html') Contact Us
+          //- navbar-collapse
+        //- container-fluid
+
+    != content
+
+    section#footer
+      .container
+        .row
+          .col-md-6.col-md-offset-3
+            ul.text-center.contact
+              li.socials-icons
+                a.facebook(href='#', data-toggle='tooltip', title='Share in Facebook')
+                  i.fa.fa-facebook
+              li.socials-icons
+                a.twitter(href='#', data-toggle='tooltip', title='Share in Twitter')
+                  i.fa.fa-twitter
+              li.socials-icons
+                a.google-plus(href='#', data-toggle='tooltip', title='Share in Google +')
+                  i.fa.fa-google-plus
+              li.socials-icons
+                a.instagram(href='#', data-toggle='tooltip', title='Share in Instagram')
+                  i.fa.fa-instagram
+              li.socials-icons
+                a.pinterest(href='#', data-toggle='tooltip', title='Share in Pinterest')
+                  i.fa.fa-pinterest
+              li.socials-icons
+                a.skype(href='#', data-toggle='tooltip', title='Connect with Skype')
+                  i.fa.fa-skype
+        .row
+          .col-md-12
+            .copy-right-text.text-center
+              | Copyright 2015 &copy; Surrey Vein Clinic.
+
+    != getBlock('scripts').add(['/js/jquery.min.js','/js/owl.carousel.min.js','/js/isotope.pkgd.min.js','/js/wow.min.js','/js/bootstrap.min.js'].concat(document.scripts||[])).toHTML()
