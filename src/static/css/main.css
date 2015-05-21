@@ -404,7 +404,7 @@ section.heading-slider {
 
 section.starting-text 
 {
-    background-color: #3E8B90;
+    background-color: #FFDC8B;
     margin-top: -37px;
 }
 .welcome 
@@ -416,12 +416,12 @@ section.starting-text
 {
     font-size: 50px;
     padding-bottom: 15px;
-    color: #B0FFF6;
+    color: #020202;
 }
 .welcome-txt 
 {
     font-size: 18px;
-    color: #fff;
+    color: #0f0f0f;
     line-height: 35px;
     margin-bottom: 26px;
     padding-top: 26px;
