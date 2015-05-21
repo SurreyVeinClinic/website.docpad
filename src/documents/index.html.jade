@@ -56,7 +56,9 @@ block content
             | Why Choose Us
           p.sub-headline.text-center
             | Lorem ipsum dolor sit amet, consectetur
-      hr
+      .row
+        .col-md-12
+          hr
       .row
         .col-lg-4.col-sm-6.col-xs-12
           .hservice
@@ -114,7 +116,6 @@ block content
           .hservice
             .service-img
               img.img-responsive.center-block(src='/img/service5.jpg', alt='')
-            |                             
             .service-description.text-center
               h4.service-heading Medical Counseling
               p
@@ -144,12 +145,9 @@ block content
           .col-md-8
             .row
               h1 Testimonial
-            |                             
             .row
               .sub-headline
                 p What Our Patients Say About Us
-            |                             
-            |                             
             #carousel-example-generic.carousel.slide(data-ride='carousel')
               // Wrapper for slides
               .carousel-inner(role='listbox')
@@ -159,79 +157,62 @@ block content
                       .row
                         .col-md-12
                           i.fa.fa-quote-left
-                        |                                                 
                         .col-md-8.col-md-offset-2
                           p.client-comment.text-center
                             | When you form a team, why do you try to form a team? Because teamwork builds trust and trust builds speed.
-                        |                                                 
                         .col-md-12
                           i.fa.fa-quote-right
-                        |                                                 
                         .col-md-4.col-md-offset-4.col-sm-6.col-sm-offset-3.col-xs-6.col-xs-offset-3
                           img.img-circle.img-responsive.center-block(src='/img/client3.jpg', alt='Image')
-                      |                                             
                       .row.text-center
                         p.client-name.text-center Julia Doe
-                |                             
+
                 .item
                   #client-speech
                     .item
                       .row
                         .col-md-12
                           i.fa.fa-quote-left
-                        |                                                 
                         .col-md-8.col-md-offset-2
                           p.client-comment.text-center
                             | When you form a team, why do you try to form a team? Because teamwork builds trust and trust builds speed.
-                        |                                                 
                         .col-md-12
                           i.fa.fa-quote-right
-                        |                                                 
                         .col-md-4.col-md-offset-4.col-sm-6.col-sm-offset-3.col-xs-6.col-xs-offset-3
                           img.img-circle.img-responsive.center-block(src='/img/client1.jpg', alt='Image')
-                      |                                             
                       .row.text-center
                         p.client-name.text-center John Doe
-                |                                 
+
                 .item
                   #client-speech
                     .item
                       .row
                         .col-md-12
                           i.fa.fa-quote-left
-                        |                                                 
                         .col-md-8.col-md-offset-2
                           p.client-comment.text-center
                             | When you form a team, why do you try to form a team? Because teamwork builds trust and trust builds speed.
-                        |                                                 
                         .col-md-12
                           i.fa.fa-quote-right
-                        |                                                 
                         .col-md-4.col-md-offset-4.col-sm-6.col-sm-offset-3.col-xs-6.col-xs-offset-3
                           img.img-circle.img-responsive.center-block(src='/img/client4.jpg', alt='Image')
-                      |                                             
                       .row.text-center
                         p.client-name.text-center Jane Doe
-              |                           
+
               a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
                 i.fa.fa-angle-left.fa-3x
-                |                             
                 span.sr-only Previous
-              |                           
               a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
                 i.fa.fa-angle-right.fa-3x
-                |                             
                 span.sr-only Next
-          |                         
+
           .col-md-4
             .appointment
               .header.text-center
                 h2 Make an Appointment
-                |                                     
                 a.number(href='#')
                   i.fa.fa-phone.fa-fw
-                  |                                         1-800-123-4567
-                |                                     
+                  | 0800 123 4567
                 span.or OR
               // form of appointment
               .row
@@ -239,28 +220,20 @@ block content
                   .form
                     .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
                       input.form-control(type='text', placeholder='Full Name *', required='')
-                    |                                             
                     .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
                       input.form-control(type='text', placeholder='Email Address *', required='')
-                    |                                             
                     .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
                       input.form-control(type='text', placeholder='Appointment Date *', required='')
-                    |                                             
                     .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
                       input.form-control(type='text', placeholder='Mobile Number *', required='')
-                  |                                         
                   .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
                     textarea.form-control(rows='6', placeholder='Your Problem *', required='')
-                  |                                         
                   .col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
                     .captcha-container
                       label Are you human? 
                       br
-                      |                                                 
                       img(src='http://inspirythemesdemo.com/healthpress/wp-content/themes/healthpress-theme/captcha/captcha.php', alt='')
-                      |                                                 
                       input.captcha.required(type='text', name='captcha', maxlength='5', title=' Please enter the code characters displayed in image!')
-                    |                                             
                     input.btn.btn-primary.send(type='submit', value='Send')
               // end of form
             // end of appointment
