@@ -36,19 +36,25 @@ html
           //- Collect the nav links, forms, and other content for toggling
           #bs-example-navbar-collapse-1.collapse.navbar-collapse
             ul.nav.navbar-nav.navbar-right
-              li.active
+              li(class=document.TopMenuCategory==="Home"?"active":"")
                 a(href='/') Home
-              li
+
+              li(class=document.TopMenuCategory==="Services"?"active":"")
                 a(href='/services.html') Services
-              li
+
+              li(class=document.TopMenuCategory==="Team"?"active":"")
                 a(href='/team.html') Team
-              li
+
+              li(class=document.TopMenuCategory==="Blog"?"active":"")
                 a(href='/blog.html') Blog
-              li
+
+              li(class=document.TopMenuCategory==="FAQs"?"active":"")
                 a(href='/faq.html') FAQs
-              li
+
+              li(class=document.TopMenuCategory==="Gallery"?"active":"")
                 a(href='/gallery.html') Gallery
-              li
+
+              li(class=document.TopMenuCategory==="Contact"?"active":"")
                 a(href='/contact.html') Contact Us
           //- navbar-collapse
         //- container-fluid
