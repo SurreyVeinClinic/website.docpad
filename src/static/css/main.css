@@ -346,9 +346,9 @@ li:last-child
 /* -------------------------------------- 1.1 heading-slider---------------------------------------- */
 section.heading-slider {
     background: url(../img/svc_legs.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 65%;
-    background-position-y: 60%;
+    background-position-y: 90%;
 }
 
 .slider-inner 
@@ -357,7 +357,7 @@ section.heading-slider {
     background-color: rgba(21, 7, 7, 0.15);*/
     width: 100%;
     color: '#111111';
-    height: 700px;
+    height: 550px;
 }
 .slider-inner-text
 {
