@@ -683,7 +683,7 @@ margin-top: -60px;
 .doctor-meta
 {
     margin: 100px 0px 70px 0px;
-    padding: 120px 35px 36px;
+    padding: 120px 30px 30px;
     border: 1px solid rgba(59, 77, 116, 0.29);
     background-color: rgba(92, 145, 216, 0.27);
     position: relative;
@@ -732,6 +732,8 @@ margin-top: -60px;
     margin-top: 20px;
     margin-bottom: 10px;
     display: block;
+    height: 320px;
+    overflow-x: auto;
 }
 .doctor-info .doctor-social .online-contact a
 {
