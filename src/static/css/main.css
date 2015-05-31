@@ -180,8 +180,13 @@ li:last-child
 }
 .navbar-fixed-top .navbar-collapse
 {
-    /* max-height: 415px; */
+    max-height: 415px;
 }
+
+.navbar-collapse li {
+    padding: 0;
+}
+
 .container-fluid 
 {
     margin-left: 20px;
