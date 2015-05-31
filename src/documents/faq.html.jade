@@ -2,7 +2,7 @@
 title: "Frequently Asked Questions"
 layout: "default"
 TopMenuCategory: "FAQs"
-scripts: ['']
+scripts: ['/js/faq.js']
 priority: 1.0
 ---
 
@@ -14,7 +14,7 @@ block content
             h1.headline Frequently Asked Questions
           .row
             .sub-headline
-              p Lorem ipsum dolor sit amet, consectetur 
+              p &nbsp;
     section.faq-content
       .container
         .row
@@ -198,22 +198,3 @@ block content
                 a(href='#', title='2 topics', style='font-size: 16.4pt;') premium
                 a(href='#', title='1 topic', style='font-size: 8pt;') theme
                 a(href='#', title='3 topics', style='font-size: 22pt;') wordpress
-
-    script.
-      $(document).ready(function() {
-        new WOW().init();
-      }
-      
-    script(type='text/javascript').
-      $(".faq-q").click( function () {
-        var container = $(this).parents(".faq-c");
-        var answer = container.find(".faq-a");
-        var trigger = container.find(".faq-t");
-        answer.slideToggle(200);
-        if (trigger.hasClass("faq-o")) {
-          trigger.removeClass("faq-o");
-        }
-        else {
-          trigger.addClass("faq-o");
-        }
-      });
