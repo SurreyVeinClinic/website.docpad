@@ -25,10 +25,10 @@ html
   body
     section.navs
       nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
-        .container-fluid
+        .container
           //- Brand and toggle get grouped for better mobile display
           .navbar-header
-            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#main-nav-bar')
               span.sr-only Toggle navigation
               span.icon-bar
               span.icon-bar
@@ -36,11 +36,11 @@ html
 
             a.navbar-brand(href='/')
               span
-                img(src="/img/logo_110.png")
+                img(src="/img/logo_200.png" width='150' height='150')
             //- a.navbar-brand.logo(href='/')
             //-   | Surrey Vein Clinic
           //- Collect the nav links, forms, and other content for toggling
-          #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          #main-nav-bar.collapse.navbar-collapse
             ul.nav.navbar-nav.navbar-right
               li(class=document.TopMenuCategory==="Home"?"active":"")
                 a(href='/') Home
