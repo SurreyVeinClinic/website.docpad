@@ -16,9 +16,9 @@ block content
               .row
                 .col-md-12
                   .slider-inner-text
-                    h1 Surgeon Led Clinic
+                    h1 Surgeon Led Clinics
                     p
-                      | Experienced Consultants and nurses with full NHS practises specialising in
+                      | Experienced Consultant Surgeons and Nurses with full NHS practises specialising in
                       | Vasular Surgery treating the full range of conditions effecting veins and arteries
 
       .item
@@ -27,9 +27,13 @@ block content
             .container
               .row
                 .slider-inner-text
-                  h1 We&apos;re Caring
+                  h1 Modern Treaments
                   p
-                    | We put you the patient at the center, meeting your needs and individualising your care
+                    | Laser EVLT, Radio-frequency ablation RFA and Foam / Micro Sclerotherapy offered by Doctor run clinics
+
+                  a.btn.btn-success.btn-lg(role="button", href="/treatments.html") View Treatments
+                  &nbsp;
+                  a.btn.btn-success.btn-lg(role="button", href="/team.html") Meet the Team
 
       .item
         .slider-3
@@ -37,9 +41,13 @@ block content
             .container
               .row
                 .slider-inner-text
-                  h1 We&apos;re Responsible
+                  h1 No obligation consultantion
                   p
-                    | We offer imparitial advise. Use modern but tried and tested techniques. Maintain our professional development
+                    | Free 10 minute consultations where we offer imparitial advise
+
+                  a.btn.btn-success.btn-lg(role="button", href="tel:0800123456") Call Us
+                  or
+                  a.btn.btn-success.btn-lg(role="button", href="/contact.html") Contact Us Online
 
   section.starting-text
     .container
@@ -63,89 +71,7 @@ block content
           p.sub-headline.text-center
             | We offer a comprehensive range of modern treatments including minimally invasive EVLT Laser, Radio Frequency Ablation (RFA),
             | Foam Sclerotherapy and Micro Sclerotherapy for thread and spider veins. We run clinics from a number of locations including
-            | Surrey, Hampshire, Berkshire and Ascot and at times to suit you.
-      .row
-        .col-md-12
-          hr
-      .row
-        .col-lg-4.col-sm-6.col-xs-12
-          .hservice
-            .service-img
-              img.img-responsive.center-block(src='/img/service1.jpg', alt='')
-            .service-description.text-center
-              h4.service-heading Top Qualified Doctors
-              p
-                | All our doctors are experienced surgeons with full NHS practises, performing thousands of procedures each year.
-              a.rm-btn.btn.btn-primary(href='/team.html')
-                | Read More 
-                i.fa.fa-caret-right
-          .clearfix
-
-        .col-lg-4.col-sm-6.col-xs-12
-          .hservice
-            .service-img
-              img.img-responsive.center-block(src='/img/service2.jpg', alt='')
-            .service-description.text-center
-              h4.service-heading Online Q &amp; A
-              p
-                | All your questions answered
-              a.rm-btn.btn.btn-primary(href='/faq.html')
-                | Read More 
-                i.fa.fa-caret-right
-          .clearfix
-
-        .col-lg-4.col-sm-6.col-xs-12
-          .hservice
-            .service-img
-              img.img-responsive.center-block(src='/img/service3.jpg', alt='')
-            .service-description.text-center
-              h4.service-heading Symptom Check
-              p
-                | Worried about your veins? We regularly run evenings with a free 10 minute consultation to help answer your questions.
-              a.rm-btn.btn.btn-primary(href='#')
-                | Read More 
-                i.fa.fa-caret-right
-          .clearfix
-
-        .col-lg-4.col-sm-6.col-xs-12
-          .hservice
-            .service-img
-              img.img-responsive.center-block(src='/img/service4.jpg', alt='')
-            .service-description.text-center
-              h4.service-heading Competitive Pricing
-              p
-                | Our pricing is fair, competitive and transparent. You will always be provided with a breakdown of charges and
-                | never for additional unnecessary investigations.
-              a.rm-btn.btn.btn-primary(href='/prices.html')
-                | Read More 
-                i.fa.fa-caret-right
-          .clearfix
-
-        .col-lg-4.col-sm-6.col-xs-12
-          .hservice
-            .service-img
-              img.img-responsive.center-block(src='/img/service5.jpg', alt='')
-            .service-description.text-center
-              h4.service-heading Your health
-              p
-                | Self help tips to help reduce your risk of vein disorders and information about how best to look after yourself before and after any procedure
-              a.rm-btn.btn.btn-primary(href='/your_health.html')
-                | Read More 
-                i.fa.fa-caret-right
-          .clearfix
-
-        .col-lg-4.col-sm-6.col-xs-12
-          .hservice
-            .service-img
-              img.img-responsive.center-block(src='/img/service6.jpg', alt='')
-            .service-description.text-center
-              h4.service-heading Caring Staff
-              p
-                | All our staff are here to help you and provide a friendly, comfortable experience for you
-              a.rm-btn.btn.btn-primary(href='/team.html')
-                | Read More 
-                i.fa.fa-caret-right
-          .clearfix
+            | Surrey, Hampshire, Berkshire and Ascot and at times to suit you. All clinics are run by Consultant Surgeons
 
   section#testimonial.text-center
     .testimonial-wrapper
@@ -157,7 +83,7 @@ block content
             .row
               .sub-headline
                 p What Our Patients Say About Us
-            #carousel-example-generic.carousel.slide(data-ride='carousel')
+            #carousel-quotes.carousel.slide(data-ride='carousel')
               // Wrapper for slides
               .carousel-inner(role='listbox')
                 .item.active
@@ -208,10 +134,10 @@ block content
                       .row.text-center
                         p.client-name.text-center Jane Doe
 
-              a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
+              a.left.carousel-control(href='#carousel-quotes', role='button', data-slide='prev')
                 i.fa.fa-angle-left.fa-3x
                 span.sr-only Previous
-              a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
+              a.right.carousel-control(href='#carousel-quotes', role='button', data-slide='next')
                 i.fa.fa-angle-right.fa-3x
                 span.sr-only Next
 
