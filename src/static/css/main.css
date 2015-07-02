@@ -167,14 +167,12 @@ h1, h2, h3, h4, h5, h6
 }
 .navbar-default .navbar-nav li a 
 {
-    text-shadow: 1px 1px 0 #20606D;
     color: #fff;
 }
 .navbar-default .navbar-nav>.active
 {
-    background-color: rgb(255, 220, 139);
-    background-color: rgba(255, 220, 139, 0.62);
-    border-top: 4px ridge rgb(116, 80, 0);
+    background-color: #FFDC8B;
+    border-top: 4px ridge #745000;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus 
 {
