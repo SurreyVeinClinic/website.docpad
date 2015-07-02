@@ -45,11 +45,11 @@ li a
 }
 .form-control, .input-group-addon
 {
-    border-radius: 0px;
+    border-radius: 0;
 }
 .title
 {
-    padding: 50px 0px;
+    padding: 50px 0;
     margin-top: 65px
 }
 a 
@@ -67,7 +67,7 @@ a:hover
 
 .pagination
 {
-    border-radius: 0px;
+    border-radius: 0;
 }
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
     background-color: #085A6C;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6
 .section-wrapper
 {
     background-color: rgba(45, 53, 56, 0.78);
-    padding: 78px 0px;
+    padding: 78px 0;
     margin-top: 65px;
 }
 
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6
 }
 .nav.navbar-nav 
 {
-    /* padding: 0px 20px; */
+    /* padding: 0 20px; */
 }
 .navbar-default
 {
@@ -296,8 +296,8 @@ li:last-child
     background-color: #46a1b4;
     min-height: 99px;
     height: auto !important;
-    padding: 10px 23px 0px;
-    margin: 0px 0px 30px;
+    padding: 10px 23px 0;
+    margin: 0 0 30px;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -310,7 +310,7 @@ li:last-child
 }
 .appointment .header h2, .appointment .header .number 
 {
-    text-shadow: 1px 1px 0px #20606D;
+    text-shadow: 1px 1px 0 #20606D;
     color: #ffffff;
     font-size: 24px;
     line-height: 40px;
@@ -347,11 +347,11 @@ li:last-child
 .captcha-container img 
 {
     vertical-align: top;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 .appointment .input-group
 {
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 /* ========================================= 1. Home============================================= */
@@ -443,7 +443,7 @@ section.heading-slider {
 }
 /*---------------------------------------------- 1.2 starting-text ----------------------------------*/
 
-section.starting-text 
+.starting-text 
 {
     background-color: #FFDC8B;
     margin-top: -20px;
@@ -473,7 +473,7 @@ section.starting-text
     background-color: #fff;
     margin-top: 20px;
     color: #46a1b4;
-    border-radius: 0px;
+    border-radius: 0;
     font-size: 16px;
     transition: all 0.3s ease-in;
     padding: 13px 20px;
@@ -488,7 +488,7 @@ section.starting-text
 
 .service-heading 
 {
-    padding: 20px 0px;
+    padding: 20px 0;
     color: darkcyan;
     font-size: 29px;
 }
@@ -514,14 +514,14 @@ section.starting-text
 height: 38px !important;
 }
 .hservice {
-    margin: 30px 0px;
+    margin: 30px 0;
     padding-bottom: 30px;
     transition: all 0.3s ease-in;
     background: rgb(242, 247, 255);
 }
 .service-description p 
 {
-    padding: 0px 10px;
+    padding: 0 10px;
     line-height: 25px;
     /* Fix height so that boxes line up */
     height: 80px;
@@ -539,7 +539,7 @@ height: 38px !important;
 .testimonial-wrapper
 {
     /*background-color: rgba(0, 0, 0, 0.87);*/
-    padding: 40px 0px;
+    padding: 40px 0;
 }
 .client-content h1 
 {
@@ -552,7 +552,7 @@ height: 38px !important;
 .client-comment 
 {
     font-size: 18px;
-    padding: 30px 0px;
+    padding: 30px 0;
     line-height: 30px;
 }
 #client-speech img 
@@ -584,7 +584,7 @@ height: 38px !important;
 .service-wrapper
 {
     background-color: rgba(45, 53, 56, 0.28);
-    padding: 78px 0px;
+    padding: 78px 0;
     margin-top: 65px;
 }
 .service
@@ -594,7 +594,7 @@ height: 38px !important;
 }
 .featured-service-content 
 {
-    margin: 40px 0px;
+    margin: 40px 0;
 }
 .service .service-icon i
 {
@@ -609,13 +609,13 @@ height: 38px !important;
 }
 .about-service h3 
 {
-    padding: 12px 0px;
+    padding: 12px 0;
     color: darkcyan;
 }
 
 .about-service p 
 {
-    padding: 0px 10px;
+    padding: 0 10px;
 }
 .service:hover .service-icon i
 {
@@ -637,7 +637,7 @@ height: 38px !important;
 
 .service-item 
 {
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 .service-item img 
 {
@@ -646,12 +646,12 @@ height: 38px !important;
 .service-item h3 
 {
     color: darkcyan;
-    margin-top: 0px;
+    margin-top: 0;
 }
 .service-item p 
 {
     line-height: 25px;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 .special-service h2
 {
@@ -662,7 +662,7 @@ height: 38px !important;
 
 .sub-headline 
 {
-    padding: 15px 0px 40px 0px;
+    padding: 15px 0 40px 0;
     font-size: 24px;
 }
 .headline 
@@ -674,11 +674,11 @@ height: 38px !important;
 {
     background-color: transparent;
     color: #46a1b4;
-    border-radius: 0px;
+    border-radius: 0;
     font-size: 15px;
     transition: all 0.3s ease-in;
     padding: 5px 12px;
-    margin: 4px 0px 0px 5px;
+    margin: 4px 0 0 5px;
     border-color: #46a1b4;
 }
 .service-rm-btn:hover
@@ -708,7 +708,7 @@ margin-top: -60px;
 .starting-wrapper
 {
     background-color: rgba(0,0,0,0.17);
-    padding: 208px 0px;
+    padding: 208px 0;
     color: #fff;
 }
 .main-title {
@@ -729,7 +729,7 @@ margin-top: -60px;
 }
 .doctor-meta
 {
-    margin: 100px 0px 70px 0px;
+    margin: 100px 0 70px 0;
     padding: 120px 30px 30px;
     border: 1px solid rgba(59, 77, 116, 0.29);
     background-color: rgba(92, 145, 216, 0.27);
@@ -815,7 +815,7 @@ margin-top: -60px;
 #job h4 
 {
     line-height: 30px;
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0 10px 0;
 }
 .block-image 
 {
@@ -837,7 +837,7 @@ margin-top: -60px;
 }
 #job .input-group
 {
-    padding: 20px 0px;
+    padding: 20px 0;
 }
 #job .send 
 {
@@ -862,7 +862,7 @@ margin-top: -60px;
 .faq-wrapper
 {
     background-color: rgba(45, 53, 56, 0.62);
-    padding: 78px 0px;
+    padding: 78px 0;
     margin-top: 65px;
 }
 
@@ -962,7 +962,7 @@ margin-top: -60px;
 .blog-wrapper
 {
     background-color: rgba(45, 53, 56, 0.62);
-    padding: 78px 0px;
+    padding: 78px 0;
     margin-top: 65px;
 }
 .archive article 
@@ -1007,7 +1007,7 @@ main .info
 }
 
 .blog-content main .info.list-inline li:first-child {
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 .blog-content main .info li 
@@ -1024,7 +1024,7 @@ main p {
     background-color: transparent;
     margin-top: 20px;
     color: #46a1b4;
-    border-radius: 0px;
+    border-radius: 0;
     font-size: 16px;
     transition: all 0.3s ease-in;
     padding: 13px 20px;
@@ -1043,7 +1043,7 @@ main p {
     border-color: #A7D1D8;
     /* color: #46a1b4; */
     color: #fff;
-    border-radius: 0px;
+    border-radius: 0;
     transition: all 0.3s ease-in;
 }
 
@@ -1076,7 +1076,7 @@ main p {
 .gallery-wrapper
 {
     background-color: rgba(25, 31, 34, 0.24);
-    padding: 78px 0px;
+    padding: 78px 0;
     margin-top: 65px;
 }
 .gallery-btn
@@ -1084,12 +1084,12 @@ main p {
     background-color: transparent;
     margin-top: 20px;
     color: #46a1b4;
-    border-radius: 0px;
+    border-radius: 0;
     font-size: 16px;
     transition: all 0.3s ease-in;
     padding: 13px 20px;
     border-color: #46a1b4;
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 .gallery-btn:hover
 {
@@ -1182,7 +1182,7 @@ main p {
 .contact-wrapper
 {
     background-color: rgba(45, 53, 56, 0.71);
-    padding: 78px 0px;
+    padding: 78px 0;
     margin-top: 65px;
 }
 .contact-content
@@ -1225,7 +1225,7 @@ main p {
 .msg-form .input-group
 {
     display: inline-table;
-    padding: 20px 0px;
+    padding: 20px 0;
 }
 
 /* ============================================Footer=========================================== */
@@ -1233,7 +1233,7 @@ main p {
 #footer
 {
     background-color: #085A6C;
-    padding: 25px 0px;
+    padding: 25px 0;
 }
 .copy-right-text
 {
@@ -1248,7 +1248,7 @@ main p {
 .contact 
 {
     padding-top: 10px;
-    padding-left: 0px;
+    padding-left: 0;
 }
 li.socials-icons 
 {
@@ -1311,7 +1311,7 @@ li.socials-icons
     {
         display: block!important;
         height: auto!important;
-        /* padding: 10px 0px; */
+        /* padding: 10px 0; */
         overflow: visible!important;
     }
 }
@@ -1328,7 +1328,7 @@ li.socials-icons
 
 @media (max-width: 991px){
     .slider-inner-text {
-        margin: 162px 0px;
+        margin: 162px 0;
     }
 }
 
@@ -1349,7 +1349,7 @@ li.socials-icons
         border: 0 !important;
         display: inline;
         margin: 0;
-        padding: 0px;
+        padding: 0;
     }
     .slider-inner h1{
         font-size: 50px;
