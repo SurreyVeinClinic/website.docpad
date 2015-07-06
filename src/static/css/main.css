@@ -91,16 +91,17 @@ h1, h2, h3, h4, h5, h6
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
-.send 
-{
+.send {
     margin-bottom: 20px;
 }
 
-.owl-pagination 
-{
+.owl-pagination {
     display: none;
 }
 
+.seperate-buttons {
+    margin: 0 20px;
+}
 /* ----------------------------------------Header --------------------------------------------*/
 .section-title
 {

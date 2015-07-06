@@ -2,7 +2,7 @@ new WOW().init();
 
 $(document).ready(function() {
     $("#starting-slider").owlCarousel({
-        autoPlay: 9000,
+        autoPlay: 6000,
         navigation : false, // Show next and prev buttons
         slideSpeed : 2000,
         paginationSpeed : 3000,
