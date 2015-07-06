@@ -1,13 +1,16 @@
 {
-  "name": "no-skeleton.docpad",
+  "name": "surrey-vein-clinic",
   "version": "0.1.0",
-  "description": "New DocPad project without using a skeleton",
+  "description": "Surrey Vein Clinic Website",
+  "repository": "git@github.com:SurreyVeinClinic/website.docpad.git",
   "dependencies": {
-    "docpad": "~6.78.1",
-    "docpad-plugin-ghpages": "~2.4.4",
-    "docpad-plugin-jade": "~2.9.0",
-    "docpad-plugin-livereload": "~2.6.1",
-    "docpad-plugin-marked": "~2.3.0"
+    "docpad": "6.x.x",
+    "docpad-plugin-cleancss": "2.x.x",
+    "docpad-plugin-ghpages": "*",
+    "docpad-plugin-jade": "*",
+    "docpad-plugin-livereload": "*",
+    "docpad-plugin-marked": "*",
+    "docpad-plugin-partials": "*"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {

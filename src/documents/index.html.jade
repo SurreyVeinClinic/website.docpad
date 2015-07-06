@@ -142,35 +142,7 @@ block content
                 span.sr-only Next
 
           .col-md-4
-            .appointment
-              .header.text-center
-                h2 Make an Appointment
-                a.number(href='#')
-                  i.fa.fa-phone.fa-fw
-                  |  0800 020 9511
-                span.or OR
-              // form of appointment
-              .row
-                form(method='post', action='#')
-                  .form
-                    .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
-                      input.form-control(type='text', placeholder='Full Name *', required='')
-                    .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
-                      input.form-control(type='text', placeholder='Email Address *', required='')
-                    .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
-                      input.form-control(type='text', placeholder='Appointment Date *', required='')
-                    .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
-                      input.form-control(type='text', placeholder='Mobile Number *', required='')
-                  .input-group.margin-bottom-sm.col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
-                    textarea.form-control(rows='6', placeholder='Your Problem *', required='')
-                  .col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-10.col-xs-offset-1
-                    .captcha-container
-                      label Are you human? 
-                      br
-                      img(src='http://inspirythemesdemo.com/healthpress/wp-content/themes/healthpress-theme/captcha/captcha.php', alt='')
-                      input.captcha.required(type='text', name='captcha', maxlength='5', title=' Please enter the code characters displayed in image!')
-                    input.btn.btn-primary.send(type='submit', value='Send')
-              // end of form
-            // end of appointment
+            != partial('booking_form')
+
         // client-content
   // testimonial
