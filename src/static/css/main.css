@@ -156,6 +156,19 @@ h1, h2, h3, h4, h5, h6
     /* border-right: 1px solid #54aec2; */
     padding: 7px 0;
 }
+
+.nav-tel li a {
+    padding-left: 160px;
+    padding-top: 12px;
+    font-size: 22px;
+    color: white;
+    background-color: transparent;
+}
+
+.nav-tel li a:hover {
+    background-color: transparent;
+}
+
 .navbar-default .navbar-nav li a 
 {
     color: #fff;
