@@ -13,21 +13,51 @@ block content
         .row
           .team-button
             .col-md-12
-              h1.main-title.wow.animated.fadeInLeft Cost of Vein Treatments
+              a(href="#booking_anchor").welcome-btn Book a Free Mini consultation
 
-  .doctor-portfolio
-    .container
-      .row
-        .col-lg-12.col-sm-12.col-xs-12
-          h2.headline.text-center
-            | Meet our team
-          p.sub-headline.text-center
-            | Staffed by NHS consultant surgeons, consultant radiologist, nurse practitioners and theatre sisters
-          hr
-  section.cost
-    .container
-      .row
-        .col-lg-4.col-sm-6.col-xs-12
+  article
+    .cost-table
+      .container
+        .row
+          .col-lg-12.col-sm-12.col-xs-12
+            h1.headline.text-center
+              | Cost of Vein Treatment
+            p.sub-headline.text-center
+              | Clear, affordable pricing
+            hr
+    section.cost
+      .container
+        .row
+          .col-lg-4.col-sm-6.col-xs-12
+            table.table.table-striped.table-hover.table-responsive
+              thead
+                tr
+                  th Description
+                  th Cost
+                  th CCSD (BUPA) Code
+              tbody
+                tr
+                  td Consultation with Vascular Surgeon
+                  td &pound; 150
+                  td n/a
+
+                tr
+                  td Consultation with Vascular Surgeon and Colour Duplex Ultrasound Scan (usually recomended with varicose veins)
+                  td &pound; 270
+                  td n/a
+
+  a(name="booking_anchor")
+  section#testimonial.text-center
+    .testimonial-wrapper
+      .container
+        .row
+          .col-md-5.col-md-offset-1
+            h2.text-center
+              | Arranging to see someone is easy. We even offer a free 10 minute
+              | consultation if you would just like to make sure a treatment can be offered.
+
+          .col-md-4
+            != partial('booking_form')
 
   script.
     new WOW().init();
