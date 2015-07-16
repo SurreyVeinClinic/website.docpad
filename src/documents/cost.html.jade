@@ -7,26 +7,28 @@ priority: 1.0
 ---
 
 block content
-  section#starting
-    .starting-wrapper
+  section.cost-title
+    .cost-heading-wrapper
       .container
         .row
-          .team-button
-            .col-md-6.col-md-offset-6
-              a(href="#booking_anchor").welcome-btn Book a Free Mini consultation
+          .col-md-6.col-md-offset-1
+            h1 Cost of Vein Treatment
+            p
+              | A guide to the costs of consultation and treatment. The prices quoted are per leg.
+              | Your exact treatment requirements will be discussed at your consultation.
 
-  article
-    .cost-table
-      .container
-        .row
-          .col-lg-12.col-sm-12.col-xs-12
-            h1.headline.text-center
-              | Cost of Vein Treatment
-            p.sub-headline.text-center
-              | Clear, affordable pricing
-            hr
+          .col-md-4
+            a.btn.btn-success.btn-lg(role="button", href="#booking_anchor" style='margin-top: 20px;') Book a Free Mini consultation
+            //- a(href="#booking_anchor").welcome-btn Book a Free Mini consultation
 
-    section.cost
+  article.cost
+    .container
+      .row
+        .col-lg-12.col-sm-12.col-xs-12
+             h2.headline.text-center
+              | A Guide to the cost of Vein Treatment
+
+    section.cost-table
       .container
         .row
           .col-lg-12.col-sm-12.col-xs-12

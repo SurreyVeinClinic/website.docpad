@@ -18,6 +18,7 @@ cleancss: true
  * 5. - FAQ
  * 6. - Gallery
  * 7. - Contact
+ * 8. - Costs
  * -----------------------------------------------------------------------------
  */
 
@@ -42,12 +43,12 @@ li a
     padding: 50px 0;
     margin-top: 65px
 }
-a 
-{
+
+a {
     color: darkcyan;
 }
-a:hover
-{
+
+a:hover {
     text-decoration: none;
 }
 
@@ -523,7 +524,7 @@ section.heading-slider {
     margin-top: 7px;
 } */
 .form-control {
-height: 38px !important;
+    height: 38px !important;
 }
 .hservice {
     margin: 30px 0;
@@ -714,7 +715,7 @@ margin-top: -60px;
 @media (min-width:1100px){
 
     .starting-wrapper {
-    height: 500px;
+        height: 500px;
     }
 }
 .starting-wrapper
@@ -1177,6 +1178,7 @@ main p {
 {
     font-size: 10px;
 }
+
 /* ========================================= 7. Contact========================================== */
 .contact-title
 {
@@ -1240,6 +1242,26 @@ main p {
     padding: 20px 0;
 }
 
+/* ========================================= 8. Costs ========================================== */
+.cost-title {
+    background: url(../img/coins_background.jpg);
+    background-size: cover;
+    background-position: top;
+    color: #F0FEFF;
+}
+
+.cost-heading-wrapper {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.cost-table {
+    padding-top: 3em;
+}
+
+.cost h2 {
+    font-size: 2em;
+}
 /* ============================================Footer=========================================== */
 
 #footer
