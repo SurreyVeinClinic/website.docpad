@@ -1,4 +1,14 @@
 /**
+ * Ref: http://stackoverflow.com/questions/2308134/trim-in-javascript-not-working-in-ie
+ * 
+ */
+if(typeof String.prototype.trim !== 'function') {
+  String.prototype.trim = function() {
+    return this.replace(/^\s+|\s+$/g, ''); 
+  }
+}
+
+/**
  * Ref: http://stackoverflow.com/questions/3326650/console-is-undefined-error-for-internet-explorer/1691694
  * 
  * Protect window.console method calls, e.g. console is not defined on IE
