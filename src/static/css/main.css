@@ -131,15 +131,17 @@ h1, h2, h3, h4, h5, h6
 
 /* --------------------------------------  navs  ----------------------------------------------- */
 
-.logo
+/*.logo
 {
     font-family: 'Dosis', sans-serif;
     line-height: 50px;
 }
-.nav.navbar-nav 
+*/.nav.navbar-nav 
 {
-    /* padding: 0 20px; */
+    padding: 0 20px; 
+    font-size: 1.2em;
 }
+
 .navbar-default
 {
     background-color: #c4962d;  /* Surrey Vein Colour */
@@ -149,6 +151,7 @@ h1, h2, h3, h4, h5, h6
 #main-nav-bar {
     background-color: #c4962d;  /* Surrey Vein Colour */
     margin-top: 60px;
+    line-height: 1;
 }
 
 .navbar-nav.navbar-right:last-child {
@@ -160,10 +163,10 @@ h1, h2, h3, h4, h5, h6
     font-size: 32px;
     color: #fff;
 }
-.navbar-nav li 
-{
+
+.navbar-nav li {
     /* border-right: 1px solid #54aec2; */
-    padding: 7px 0;
+    /*padding: 7px 0;*/
 }
 
 .nav-tel li a {
@@ -185,7 +188,7 @@ h1, h2, h3, h4, h5, h6
 .navbar-default .navbar-nav>.active
 {
     background-color: #FFDC8B;
-    border-top: 4px ridge #745000;
+    /*border-top: 4px ridge #745000;*/
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus 
 {
@@ -198,7 +201,7 @@ li:last-child
 .navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
     background-color: #745000;
     color: white;
-    border-bottom: 4px ridge rgb(116, 80, 0);
+    /*border-bottom: 4px ridge rgb(116, 80, 0);*/
 }
 .navbar-fixed-top .navbar-collapse
 {
