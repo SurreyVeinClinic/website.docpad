@@ -18,7 +18,7 @@ $(document).ready(function() {
                 setTimeout(function(){
                     $("#email-cta-success").hide();
                 },
-                6000);
+                60000);
             },
             error: function(xhr, errmsg, err) {
                 console.log("err: " + errmsg);
@@ -26,7 +26,7 @@ $(document).ready(function() {
                 setTimeout(function(){
                     $("#email-cta-fail").hide();
                 },
-                6000);
+                10000);
             }
         });
     });
