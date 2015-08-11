@@ -23,6 +23,7 @@ $(document).ready(function() {
             },
             error: function(xhr, errmsg, err) {
                 console.log("err: " + errmsg);
+                ga('send', 'event', 'submit-fail', 'click', 'cta');
                 $("#email-cta-fail").show();
                 setTimeout(function(){
                     $("#email-cta-fail").hide();

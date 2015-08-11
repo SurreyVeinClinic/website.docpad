@@ -22,6 +22,7 @@ $(document).ready(function() {
             },
             error: function(xhr, errmsg, err) {
                 console.log("err: " + errmsg);
+                ga('send', 'event', 'submit-fail', 'click', 'booking');
                 $("#booking-fail").show();
                 setTimeout(function(){
                     $("#booking-fail").hide();
