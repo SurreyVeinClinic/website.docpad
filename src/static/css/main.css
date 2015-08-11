@@ -431,9 +431,11 @@ section.heading-mainpage {
     margin-bottom: 0.5em;
 }
 
-.form-inline .form-group .cta-form-email {
-    width:420px;
-    margin-right: 20px;
+@media only screen and (min-width: 480px) {
+    .form-inline .form-group .cta-form-email {
+        width:420px;
+        margin-right: 20px;
+    }
 }
 
 /* -------------------------------------- 1.1 heading-slider---------------------------------------- */
