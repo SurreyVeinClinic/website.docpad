@@ -1,35 +1,24 @@
 new WOW().init();
 
 $(document).ready(function() {
-    $("#starting-slider").owlCarousel({
-        autoPlay: 6000,
-        navigation : false, // Show next and prev buttons
-        slideSpeed : 2000,
-        paginationSpeed : 3000,
-        rewindNav: true,
-        singleItem: true
-    });
-});
 
-$(function() {
-    // init Isotope
-    var $container = $('.isotope').isotope({
-        itemSelector: '.element-item',
-        layoutMode: 'fitRows'
-    });
-    // bind filter button click
-    $('#filters').on( 'click', 'button', function() {
-        var filterValue = $( this ).attr('data-filter');
-        // use filterFn if matches value
-        $container.isotope({ filter: filterValue });
-    });
-    
-    // change is-checked class on buttons
-    $('.button-group').each(function(i, buttonGroup) {
-        var $buttonGroup = $(buttonGroup);
-        $buttonGroup.on('click', 'button', function () {
-            $buttonGroup.find('.is-checked').removeClass('is-checked');
-            $(this).addClass('is-checked');
+    $("#cta-form").on("submit", function(e) {
+        e.preventDefault();
+        console.log("Sending CTA");
+
+        $.ajax({
+            url: atob("Ly9mb3Jtc3ByZWUuaW8vbmV2aWxsZUBkYXN0dXIubWUudWs=") //-"//formspree.io/neville@dastur.me.uk",
+            type: "POST",
+            data: $("#cta-form").serialize(),
+            dataType: "json",
+            success: function(json) {
+                console.log("ok");
+            },
+            error: function(xhr, errmsg, err) {
+                console.log("err: " + errmsg);
+            }
         });
     });
+    
 });
+
