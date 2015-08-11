@@ -391,25 +391,23 @@ li:last-child
 
 /* -------------------------------------- 1.1 heading-mainpage---------------------------------------- */
 
-section.heading-mainpage {
-    background: url(../img/svc_legs.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 90%;
-}
-
-@media only screen and (max-width:320px){
+@media only screen and (max-width:767px){
     section.heading-mainpage {
-    background: url(../img/svc_legs_sm1.png);
+        background: url(../img/svc_legs_sm1.png);
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 90%;
         background-position-x: 90%;
     }
 }
 
-@media only screen and (min-width:480px){
+@media only screen and (min-width:768px){
     section.heading-mainpage {
+        background: url(../img/svc_legs.png);
+        background-size: cover;
+        background-repeat: no-repeat;
         background-position-y: 90%;
-        background-position-x: 90%;
+        background-position-x: 75%;
     }
 }
 
