@@ -25,21 +25,20 @@ cleancss: true
  * {outline: none !important;}
 
 /*============================================Global============================================ */
-ul li
-{
+ul li {
     list-style: none;
     display: inline-block;
 }
-li a
-{
+
+li a {
     text-decoration: none;
 }
-.form-control, .input-group-addon
-{
+
+.form-control, .input-group-addon {
     border-radius: 0;
 }
-.title
-{
+
+.title {
     padding: 50px 0;
     margin-top: 65px
 }
@@ -56,32 +55,31 @@ a:hover {
     font-family: 'Raleway', sans-serif;
 }
 
-.pagination
-{
+.pagination {
     border-radius: 0;
 }
+
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
     background-color: #085A6C;
     border-color: #085A6C;
 }
 .pagination>li>a, .pagination>li>span {
-
-color: #085A6C;
-background-color: #fff;
-border: 1px solid #ddd;
+    color: #085A6C;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
 
-p
-{
+p {
     font-family: 'Dosis', sans-serif;
     word-spacing: 0.24em;
     font-size: 17px;
 }
-h1, h2, h3, h4, h5, h6
-{
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
 .send {
     margin-bottom: 20px;
 }
@@ -128,7 +126,6 @@ h1, h2, h3, h4, h5, h6
     padding: 78px 0;
     margin-top: 65px;
 }
-
 
 .section-header{
   font-size: 2em;
