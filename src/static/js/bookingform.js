@@ -13,6 +13,7 @@ $(document).ready(function() {
             dataType: "json",
             success: function(json) {
                 console.log("ok");
+                ga('send', 'event', 'submit', 'click', 'booking');
                 $("#booking-success").show();
                 setTimeout(function(){
                     $("#booking-success").hide();

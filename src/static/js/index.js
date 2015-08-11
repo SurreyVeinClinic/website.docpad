@@ -14,6 +14,7 @@ $(document).ready(function() {
             dataType: "json",
             success: function(json) {
                 console.log("ok");
+                ga('send', 'event', 'submit', 'click', 'cta');
                 $("#email-cta-success").show();
                 setTimeout(function(){
                     $("#email-cta-success").hide();
