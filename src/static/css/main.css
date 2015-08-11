@@ -174,8 +174,7 @@ h1, h2, h3, h4, h5, h6
 
 .nav-tel-dark li a {
     font-size: 22px;
-/*    color: #181818;
-*/    background-color: transparent;
+    background-color: transparent;
 }
 
 .nav-tel-dark li a:hover {
@@ -205,17 +204,6 @@ h1, h2, h3, h4, h5, h6
     margin-right: 0;
 }
 
-.navbar-default .navbar-header .logo
-{
-    font-size: 32px;
-    color: #fff;
-}
-
-.navbar-nav li {
-    /* border-right: 1px solid #54aec2; */
-    /*padding: 7px 0;*/
-}
-
 .navbar-default .navbar-nav li a 
 {
     color: #fff;
@@ -223,7 +211,6 @@ h1, h2, h3, h4, h5, h6
 .navbar-default .navbar-nav>.active
 {
     background-color: #FFDC8B;
-    /*border-top: 4px ridge #745000;*/
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus 
 {
@@ -236,7 +223,6 @@ li:last-child
 .navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
     background-color: #745000;
     color: white;
-    /*border-bottom: 4px ridge rgb(116, 80, 0);*/
 }
 .navbar-fixed-top .navbar-collapse
 {
