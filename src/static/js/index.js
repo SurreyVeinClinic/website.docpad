@@ -14,9 +14,19 @@ $(document).ready(function() {
             dataType: "json",
             success: function(json) {
                 console.log("ok");
+                $("#email-cta-success").show();
+                setTimeout(function(){
+                    $("#email-cta-success").hide();
+                },
+                3000);
             },
             error: function(xhr, errmsg, err) {
                 console.log("err: " + errmsg);
+                $("#email-cta-fail").show();
+                setTimeout(function(){
+                    $("#email-cta-fail").hide();
+                },
+                3000);
             }
         });
     });
