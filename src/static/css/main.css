@@ -414,8 +414,13 @@ section.heading-mainpage {
 }
 
 .mainpage-inner {
-    padding-top: 180px;
     padding-bottom: 10em;
+}
+
+@media only screen and (min-width:768px){
+    .mainpage-inner {
+        padding-top: 180px;
+    }
 }
 
 .cta_form {
