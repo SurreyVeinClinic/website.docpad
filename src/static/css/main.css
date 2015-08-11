@@ -74,7 +74,7 @@ border: 1px solid #ddd;
 p
 {
     font-family: 'Dosis', sans-serif;
-    word-spacing: 3px;
+    word-spacing: 0.24em;
     font-size: 17px;
 }
 h1, h2, h3, h4, h5, h6
@@ -100,6 +100,13 @@ h1, h2, h3, h4, h5, h6
 .margin-top-20 { margin-top: 2.0em; }
 .margin-top-25 { margin-top: 2.5em; }
 .margin-top-30 { margin-top: 3.0em; }
+
+.margin-bottom-05 { margin-bottom: 0.5em; }
+.margin-bottom-10 { margin-bottom: 1.0em; }
+.margin-bottom-15 { margin-bottom: 1.5em; }
+.margin-bottom-20 { margin-bottom: 2.0em; }
+.margin-bottom-25 { margin-bottom: 2.5em; }
+.margin-bottom-30 { margin-bottom: 3.0em; }
 
 /* ----------------------------------------Header --------------------------------------------*/
 .section-title
@@ -371,6 +378,49 @@ li:last-child
 
 /* ========================================= 1. Home============================================= */
 
+/* -------------------------------------- 1.1 heading-mainpage---------------------------------------- */
+
+section.heading-mainpage {
+    background: url(../img/svc_legs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 90%;
+}
+
+@media only screen and (max-width:320px){
+    section.heading-mainpage {
+    background: url(../img/svc_legs_sm1.png);
+        background-size: cover;
+        background-position-x: 90%;
+    }
+}
+
+@media only screen and (min-width:480px){
+    section.heading-mainpage {
+        background-position-y: 90%;
+        background-position-x: 90%;
+    }
+}
+
+.mainpage-inner {
+    padding-top: 180px;
+    padding-bottom: 10em;
+}
+
+.cta_form {
+    display: inline-block;
+    padding: 14px;
+    background: #c8c8c8 none no-repeat scroll 0 0;
+    background-color: rgba(200, 200, 200, 0.6);
+    border-radius: 5px;
+    font-size: 0;
+    margin-bottom: 0.5em;
+}
+
+.form-inline .form-group .cta-form-email {
+    width:420px;
+    margin-right: 20px;
+}
 
 /* -------------------------------------- 1.1 heading-slider---------------------------------------- */
 section.heading-slider {

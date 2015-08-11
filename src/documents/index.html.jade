@@ -7,47 +7,34 @@ priority: 1.0
 ---
 
 block content
-  section.heading-slider
-    #starting-slider.owl-carousel.owl-theme
-      .item
-        .slider-1
-          .slider-inner
-            .container
-              .row
-                .col-md-12
-                  .slider-inner-text
-                    h1 Consultant Surgeon Led Clinics
-                    p
-                      | Experienced Consultant Surgeons and Nurses with full NHS practises specialising in
-                      | Vasular Surgery treating the full range of conditions effecting veins and arteries
+  section.heading-mainpage
+    .mainpage-inner
+      .container
+        .row
+          .col-xs-10.col-md-9.text-center
+            h1 Get Modern Vein Treatment from Consultant Surgeons
 
-      .item
-        .slider-2
-          .slider-inner
-            .container
-              .row
-                .slider-inner-text
-                  h1 Modern Treaments
-                  p
-                    | Laser EVLT, Radio-frequency ablation RFA and Foam / Micro Sclerotherapy offered by Doctor run clinics
+            h2
+              | Laser EVLT, Radio-frequency ablation (RFA),
+              | Foam Sclerotherapy and Micro Sclerotherapy
 
-                  a.btn.btn-success.btn-lg(role="button", href="/treatments.html") View Treatments
-                  span.seperate-buttons &nbsp;
-                  a.btn.btn-success.btn-lg(role="button", href="/team.html") Meet the Team
+        .row
+          .col-xs-10.col-md-9.text-center
+            h3.margin-top-20
+              | Free 10 minute consultation offering imparitial advise
 
-      .item
-        .slider-3
-          .slider-inner
-            .container
-              .row
-                .slider-inner-text
-                  h1 No obligation free consultation
-                  p
-                    | Free 10 minute consultation offering imparitial advise
-
-                  a.btn.btn-success.btn-lg(role="button", href="tel:08000209511") Call 0800 020 9511
-                  span.seperate-buttons Or
-                  a.btn.btn-success.btn-lg(role="button", href="/contact.html") Contact Us Online
+        .row
+          .col-md-9.text-center
+            .cta_form
+              form.form-inline
+                .form-group.form-group-lg
+                  label.sr-only Email
+                  input#email-cta.form-control.input-lg.cta-form-email(type="email" placeholder="Enter email to request information / booking ...")
+                  button.btn.btn-success.btn-lg Send
+        .row
+          .col-sm-12.col-md-9.text-center
+            h4 Or call us for free to discuss further 
+              a(role="button", href="tel:08000209511") 0800 020 9511
 
   section.starting-text
     .container
@@ -55,8 +42,10 @@ block content
         .welcome
           h2.welcome-title Welcome To The Surrey Vein Clinic
           p.welcome-txt
-            | A private clinic specialising in the treatment of varicose veins, spider veins, facial flare / thread veins and other vascular conditions. Backed
-            | by a team of surgeons, radiologists and nurse practitioners who have NHS practises at 
+            | A private clinic specialising in the treatment of varicose veins, spider veins,
+            | facial flare / thread veins and other vascular conditions. Backed
+            | by a team of surgeons, radiologists and specialist nurse practitioners who
+            | have full NHS practises at 
             a(href="http://www.frimleyhealth.nhs.uk/") Frimley Health NHS Trust 
             |, the first NHS Trust to recieve a #[a(href="http://www.cqc.org.uk/provider/RDU") CQC Outstanding Rating]
 
