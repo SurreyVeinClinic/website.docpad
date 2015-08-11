@@ -138,12 +138,12 @@ h1, h2, h3, h4, h5, h6
 
 /* --------------------------------------  navs  ----------------------------------------------- */
 
-/*.logo
+.logo-img
 {
-    font-family: 'Dosis', sans-serif;
-    line-height: 50px;
+    width: 150px;
+    height: 150px;
 }
-*/
+
 .nav.navbar-nav 
 {
     padding: 0 20px; 
