@@ -80,15 +80,16 @@ block content
 
     hr
 
-    .container
-      .row
-        .col-md-5.col-md-offset-1
-          h2.text-center
-            | Arranging to see someone is easy. We even offer a free 10 minute
-            | consultation if you would just like to make sure a treatment can be offered.
+    .section-with-top-bottom-padding
+      .container
+        .row
+          .col-md-5.col-md-offset-1
+            h2.text-center
+              | Arranging to see someone is easy. We even offer a free 10 minute
+              | consultation if you would just like to make sure a treatment can be offered.
 
-        .col-md-4
-          != partial('booking_form')
+          .col-md-4
+            != partial('booking_form')
 
   script.
     new WOW().init();

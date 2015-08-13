@@ -106,6 +106,10 @@ h1, h2, h3, h4, h5, h6 {
 .margin-bottom-25 { margin-bottom: 2.5em; }
 .margin-bottom-30 { margin-bottom: 3.0em; }
 
+.section-with-top-bottom-padding {
+    padding: 40px 0;
+}
+
 /* ----------------------------------------Header --------------------------------------------*/
 .section-title
 {
@@ -251,6 +255,11 @@ li:last-child
 {
     margin-bottom: 40px;
 }
+
+.faq-content {
+    padding-bottom: 40px;
+}
+
 .widget h4 {
     background: url("../img/title-bg.png") repeat-x scroll 0 4px rgba(0, 0, 0, 0);
     font-weight: bold;
