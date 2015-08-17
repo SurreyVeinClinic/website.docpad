@@ -782,24 +782,16 @@ section.heading-slider {
 /* ========================================= 3. Doctor============================================ */
 
 /* ------------------------------------------  3.1 doctor-list --------------------------------- */
-.team-button {
-margin-top: -60px;
-}
-#starting
+#team-heading-section
 {
     background: url(../img/doctors-img.jpg);
 }
-@media (min-width:1100px){
 
-    .starting-wrapper {
-        height: 500px;
-    }
-}
-.starting-wrapper
+.team-wrapper
 {
     background-color: rgba(0,0,0,0.17);
-    padding: 208px 0;
-    color: #fff;
+    padding: 100px 0;
+    color: #111;
 }
 .main-title {
     background-color: rgb(47, 79, 79);
@@ -807,16 +799,20 @@ margin-top: -60px;
     padding: 23px 70px;
     float: right;
 }
+.team-title {
+    font-size: 4em;
+}
+
 .sub-title 
 {
     padding: 30px;
     float: right;
     background-color: darkslategrey;
 }
-.doctor-list
-{
+.doctor-list {
     padding-top: 100px;
 }
+
 .doctor-meta
 {
     margin: 100px 0 70px 0;
