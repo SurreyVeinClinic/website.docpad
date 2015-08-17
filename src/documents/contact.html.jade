@@ -2,7 +2,6 @@
 title: "Contact"
 layout: "default"
 TopMenuCategory: "Contact"
-scripts: ['https://maps.googleapis.com/maps/api/js']
 priority: 1.0
 ---
 
@@ -16,12 +15,11 @@ block content
         .row
           .sub-headline
             p 
-  section.contact-content
+
+  section.contact-content.section-with-top-bottom-padding
     .container
       .row
         .col-md-8
-          .google-map
-            #map-canvas
           .quick-contact
             h3 Main Office Contact Details
             hr
@@ -50,19 +48,3 @@ block content
 
         .col-md-4
           != partial('booking_form')
-
-  script.
-    function initialize() {
-      var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-        center: new google.maps.LatLng(24.900392, 91.853181),
-        zoom: 16,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      }
-      var map = new google.maps.Map(mapCanvas, mapOptions)
-    };
-
-    $(document).ready(function() {
-      new WOW().init();
-      google.maps.event.addDomListener(window, 'load', initialize);
-    };
