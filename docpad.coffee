@@ -7,6 +7,8 @@ docpadConfig = {
 	    ghpages:
 	        deployRemote: 'target'
 	        deployBranch: 'master'
+	    nodesass:
+	    	outputStyle: 'compressed'	# nested / compressed
 	    grunt:
 	    	writeAfter: false
 	    	generateAfter: []

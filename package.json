@@ -12,6 +12,7 @@
     "docpad-plugin-jade": "*",
     "docpad-plugin-livereload": "*",
     "docpad-plugin-marked": "*",
+    "docpad-plugin-nodesass": "^2.8.0",
     "docpad-plugin-partials": "*"
   },
   "main": "node_modules/.bin/docpad-server",
