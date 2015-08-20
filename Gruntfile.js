@@ -5,10 +5,13 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     cssmin: {
+      options: {
+        banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */'
+      },
       minify: {
         expand: true,
         cwd: 'out/css/',
-        src: ['.css', '!.min.css'],
+        src: ['*.css', '!*.min.css'],
         dest: 'out/css/',
         ext: '.min.css'
       }

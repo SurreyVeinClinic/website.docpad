@@ -23,13 +23,13 @@ docpadConfig = {
 	            keepBreaks: false
 
 	            # Turns on benchmarking mode measuring time spent on cleaning up.
-	            benchmark: false
+	            benchmark: true
 
 	            # Whether to process @import rules.
-	            processImport: true
+	            processImport: false
 
 	            # Set to false to skip URL rebasing
-	            rebase: true
+	            rebase: false
 
 	            # Set to false to disable advanced optimizations
 	            advanced: false
