@@ -29,7 +29,7 @@ cleancss: true
 /*============================================Global============================================ */
 ul li {
     list-style: none;
-    display: inline-block;
+//-    display: inline-block;
 }
 
 li a {
@@ -1362,6 +1362,10 @@ main p {
     color: #dadada;
 }
 
+#footer ul li {
+    display: inline-block;
+    list-style: none;
+}
 /* ----------------------------------- social media -------------------------------------------- */
 
 .contact 
