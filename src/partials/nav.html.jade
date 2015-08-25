@@ -4,7 +4,7 @@ section.navs(style="position: absolute;")
   //- overlaps it and the a hrefs don't work
   nav.navbar.navbar-default.navbar-static-top(role='contact' style="z-index: 1000;padding-bottom: 0")
     .container
-        ul.nav-tel.nav.navbar-right
+        ul.nav.navbar-right(class=document.header_light && document.header_light == true ? "nav-tel-dark" : "nav-tel")
           li
             a(href="tel:08000209511")
               i.fa.fa-phone
